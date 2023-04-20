@@ -1,0 +1,88 @@
+/*
+Order of elements
+    1. Positioning
+    2. Box model
+    3. Typography
+    4. Visuals
+    5. Others
+*/
+
+/*
+Typography used
+    font-family: 'Poppins', sans-serif;
+    weight: 300, 400, 700
+*/
+
+/*
+Variables
+*/
+:root {
+    --purple: #5860FF;
+    --black: #171717;
+    --white: #FAFAFA;
+    --gray: #78807f;
+    --gray1: #8c9695;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: var(--white);
+}
+
+/* Header */
+.header__navigation {
+    min-width: 288px;
+    margin: 16px auto auto auto;
+}
+
+
+.navigation__logo {
+    font-size: 4.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navigation__logo a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.navigation__logo span {
+    color: var(--purple);
+}
+
+.navigation__items {
+    text-align: center;
+}
+
+.navigation__items .navigation__item {
+    margin: 5px 0 5px 0;
+
+    font-size: 1.6rem;
+    font-weight: 500;
+    list-style: none;
+}
+
+.navigation__item a{
+    text-decoration: none;
+    color: var(--gray);
+
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+.navigation__button {
+    display: none;
+}
