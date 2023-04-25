@@ -21,8 +21,6 @@ Variables
     --black: #171717;
     --white: #FAFAFA;
     --gray: #78807f;
-    --gray1: #8c9695;
-
 }
 
 * {
@@ -38,13 +36,16 @@ html {
 }
 
 body {
+    min-width: 288px;
+    width: 90%;
+    margin: auto;
     background-color: var(--white);
 }
 
 /* Header */
 .header__navigation {
     min-width: 288px;
-    margin: 16px auto auto auto;
+    margin: 16px auto 0 auto;
 }
 
 
@@ -64,6 +65,7 @@ body {
 }
 
 .navigation__items {
+    display: none;
     text-align: center;
 }
 
@@ -85,4 +87,118 @@ body {
 
 .navigation__button {
     display: none;
+}
+
+/* Main */
+.presentation__introduction {
+    margin: 18px 0 0 0;
+}
+
+.presentation__introduction .presentation__title {
+    display: block;
+
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.presentation__introduction .presentation__description {
+    margin: 12px 0 12px 0;
+    max-width: 260px;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.presentation__introduction .presentation__cta a{
+    text-decoration: none;
+}
+
+.presentation__introduction .presentation__cta .presentation__anchor-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 50px;
+    margin: 0 0 10px 0;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    border-radius: 2px;
+}
+
+.presentation__introduction .presentation__cta .presentation__anchor-text_purple {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.presentation__introduction .presentation__cta .presentation__anchor-text_white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: inherit;
+    color: var(--black);
+}
+
+.presentation__introduction .presentation__cta .presentation__arrow-up-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url('../assets/icons/arrow_up-black.svg');
+    background-size: contain;
+}
+
+.presentation_skills {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    padding: 18px;
+    margin: 20px 0 0 0;
+
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.presentation_skills .presentation__data {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 10px 0 10px;
+}
+
+.presentation_skills .presentation__amount {
+    width: 100%;
+    max-height: 40px;
+    padding: 0 0 10px 0;
+
+    font-size: 2.4rem;
+    font-weight: 500;
+
+    border-image: linear-gradient(to right, var(--purple), darkorchid) 1;
+    border-bottom: 1px transparent solid;
+}
+
+.presentation_skills .presentation__info {
+    margin: 4px 0 0 0;
+    max-width: 165px;
+
+    font-size: 1.2rem;
+}
+
+.presentation__image {
+    display: none;
+}
+
+.presentation__image .presentation__img{
+    width: 100%;
+    height: 240px;
+
+    background-image: url("https://images.unsplash.com/photo-1513673054901-2b5f51551112?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

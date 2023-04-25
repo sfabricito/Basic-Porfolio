@@ -1,8 +1,6 @@
 /* Header */
 body{
     min-width: 588px;
-    width: 90%;
-    margin: auto;
 }
 
 .header__navigation {
@@ -39,4 +37,102 @@ body{
 .navigation__item a:hover,
 .navigation__item a:active {
     color: var(--black);
+}
+
+/* Main */
+.presentation{
+    display: flex;
+}
+
+.presentation__introduction {
+    margin: 24px 0 0 0;
+    width: 55%;
+}
+
+.presentation__introduction .presentation__title {
+    font-size: 3.4rem;
+}
+
+.presentation__introduction .presentation__description {
+    font-size: 1.6rem;
+}
+
+.presentation__introduction .presentation__cta {
+    display: flex;
+}
+
+.presentation_skills {
+    border-radius: 2px 0 0 2px;
+}
+
+.presentation_skills .presentation__amount {
+    max-height: 50px;
+    font-size: 2.6rem;
+}
+
+.presentation__image {
+    display: block;
+    width: 50%;
+}
+
+.presentation__image .presentation__img {
+    height: 100%;
+    border-radius: 0 0 2px 0;
+}
+
+.presentation__form .newsletter-form{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 75px;
+    left: calc(50% - 120px);
+
+    max-width: 240px;
+    width: 240px;
+    height: 50px;
+
+    background: var(--white);
+    border-radius: 2px;
+}
+
+.presentation__form .newsletter-form input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin: 0 0 0 5px;
+
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--gray);
+
+    background: var(--white);
+    border: none;
+}
+
+.presentation__form .newsletter-form input[type="email"]:focus {
+    font-weight: 500;
+    color: var(--black);
+    outline: none;
+}
+
+.presentation__form .newsletter-form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 2px;
+    background: var(--black);
+}
+
+.presentation__form .newsletter-form .newsletter-form__icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url('../assets/icons/arrow_up-white.svg');
+    background-size: contain;
 }

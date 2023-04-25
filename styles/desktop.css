@@ -1,4 +1,7 @@
 /* Header */
+.header__navigation {
+    padding: 0 0 5px 0;
+}
 
 .navigation__items {
     justify-content: center;
@@ -32,4 +35,60 @@
     font-weight: 500;
     color: var(--black);
     text-decoration: none;
+}
+
+/* Main */
+.presentation__introduction {
+    margin: 24px 0 0 0;
+    width: 50%;
+}
+
+.presentation__introduction .presentation__title {
+    font-size: 4.2rem;
+}
+
+.presentation__introduction .presentation__description {
+    max-width: 320px;
+    margin: 16px 0 16px 0;
+
+    font-size: 2rem;
+}
+
+.presentation__introduction .presentation__cta .presentation__anchor-text {
+    font-size: 1.6rem;
+}
+
+.presentation_skills {
+    padding: 24px 15% 24px 24px;
+}
+
+.presentation_skills .presentation__amount {
+    font-size: 2.8rem;
+}
+
+.presentation_skills .presentation__info {
+    max-width: 180px;
+    font-size: 1.4rem;
+}
+
+.presentation__image {
+    width: 60%;
+}
+
+.presentation__form .newsletter-form {
+    left: calc(50% - 225px);
+
+    max-width: 450px;
+    width: 450px;
+    height: 60px;
+}
+
+.presentation__form .newsletter-form input[type="email"] {
+    width: 87%;
+    font-size: 1.4rem;
+}
+
+.presentation__form .newsletter-form button {
+    width: 40px;
+    height: 40px;
 }
