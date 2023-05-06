@@ -94,6 +94,14 @@
     height: 40px;
 }
 
+.cards {
+    margin: 45px 0 0 0;
+}
+
+.cards__title {
+    margin: 0 0 45px 0;
+}
+
 .cards__title {
     font-size: 2rem;
 }

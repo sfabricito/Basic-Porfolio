@@ -137,6 +137,10 @@ body{
     background-size: contain;
 }
 
+.cards__card {
+    padding: 24px;
+}
+
 .cards__title {
     font-size: 1.8rem;
 }
@@ -148,6 +152,10 @@ body{
 
 .cards__elements .cards__card {
     max-width: 31%;
+}
+
+.cards__card {
+    margin: 0;
 }
 
 .cards__card .card__title h2{
@@ -164,4 +172,10 @@ body{
 .cards__card .card__logo .card__logo_terminal {
     width: 36px;
     height: 36px;
+}
+
+.cards__card .card__image .card__image_portfolio-1,
+.cards__card .card__image .card__image_portfolio-2,
+.cards__card .card__image .card__image_portfolio-3{
+    height: 210px;
 }
