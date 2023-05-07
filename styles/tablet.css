@@ -179,3 +179,18 @@ body{
 .cards__card .card__image .card__image_portfolio-3{
     height: 210px;
 }
+
+.cards__card .card__testimonial .card__image .card__image_testimonial-1,
+.cards__card .card__testimonial .card__image .card__image_testimonial-2,
+.cards__card .card__testimonial .card__image .card__image_testimonial-3 {
+    width: 80px;
+    height: 80px;
+}
+
+.cards__card .card__testimonial .card__info .card__name h2{
+    font-size: 1.8rem;
+}
+
+.cards__card .card__testimonial .card__info .card__position span{
+    font-size: 1.4rem;
+}

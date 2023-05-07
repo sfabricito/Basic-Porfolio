@@ -121,3 +121,14 @@
     width: 40px;
     height: 40px;
 }
+
+.cards__card .card__testimonial .card__image .card__image_testimonial-1,
+.cards__card .card__testimonial .card__image .card__image_testimonial-2,
+.cards__card .card__testimonial .card__image .card__image_testimonial-3 {
+    width: 100px;
+    height: 100px;
+}
+
+.cards__card .card__testimonial .card__info .card__position span{
+    font-size: 1.5rem;
+}
