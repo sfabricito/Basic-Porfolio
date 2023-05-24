@@ -1,5 +1,5 @@
 /* Header */
-body{
+body {
     min-width: 588px;
 }
 
@@ -13,7 +13,7 @@ body{
     -moz-box-shadow: 0px 9px 5px -10px rgba(0,0,0,0.32);
 }
 
-.navigation__logo  {
+.navigation__logo {
     width: 20%;
     max-width: 124px;
 }
@@ -40,7 +40,7 @@ body{
 }
 
 /* Main */
-.presentation{
+.presentation {
     display: flex;
 }
 
@@ -80,7 +80,7 @@ body{
     border-radius: 0 0 2px 0;
 }
 
-.presentation__form .newsletter-form{
+.presentation__form .newsletter-form {
     display: flex;
     align-items: center;
     position: relative;
@@ -116,7 +116,7 @@ body{
     outline: none;
 }
 
-.presentation__form .newsletter-form button{
+.presentation__form .newsletter-form button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,7 +158,7 @@ body{
     margin: 0;
 }
 
-.cards__card .card__title h2{
+.cards__card .card__title h2 {
     font-size: 1.8rem;
 }
 
@@ -176,7 +176,7 @@ body{
 
 .cards__card .card__image .card__image_portfolio-1,
 .cards__card .card__image .card__image_portfolio-2,
-.cards__card .card__image .card__image_portfolio-3{
+.cards__card .card__image .card__image_portfolio-3 {
     height: 210px;
 }
 
@@ -187,10 +187,38 @@ body{
     height: 80px;
 }
 
-.cards__card .card__testimonial .card__info .card__name h2{
+.cards__card .card__testimonial .card__info .card__name h2 {
     font-size: 1.8rem;
 }
 
-.cards__card .card__testimonial .card__info .card__position span{
+.cards__card .card__testimonial .card__info .card__position span {
     font-size: 1.4rem;
+}
+
+.contact {
+    margin: 45px 0 0 0;
+}
+
+.contact .contact__title {
+    font-size: 1.8rem;
+}
+
+.contact .contact__body {
+    max-height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contact__form {
+    width: 60%;
+}
+
+.contact .contact__body .contact__phrase {
+    display: inline-block;
+    margin: 80px 0 0 0;
+    width: 30%;
+
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: justify;
 }

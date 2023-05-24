@@ -132,3 +132,25 @@
 .cards__card .card__testimonial .card__info .card__position span{
     font-size: 1.5rem;
 }
+
+.contact .contact__title {
+    font-size: 2rem;
+}
+
+.contact .contact__form {
+    width: 51.5%;
+}
+
+.contact .contact__form label input,
+.contact .contact__form label textarea {
+    font-size: 1.5rem;
+}
+
+.contact .contact__body .contact__phrase {
+    display: inline-block;
+    width: 35%;
+
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: justify;
+}

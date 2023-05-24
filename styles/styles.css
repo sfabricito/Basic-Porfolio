@@ -36,13 +36,16 @@ html {
 }
 
 body {
-    min-width: 288px;
-    width: 90%;
-    margin: auto;
     background-color: var(--white);
 }
 
 /* Header */
+header {
+    min-width: 288px;
+    width: 90%;
+    margin: auto;
+}
+
 .header__navigation {
     min-width: 288px;
     margin: 16px auto 0 auto;
@@ -90,6 +93,12 @@ body {
 }
 
 /* Main */
+main {
+    min-width: 288px;
+    width: 90%;
+    margin: auto;
+}
+
 .presentation__introduction {
     margin: 18px 0 0 0;
 }
@@ -193,7 +202,7 @@ body {
     display: none;
 }
 
-.presentation__image .presentation__img{
+.presentation__image .presentation__img {
     width: 100%;
     height: 240px;
 
@@ -233,7 +242,7 @@ body {
     margin: 16px 0 0 0;
 }
 
-.cards__card .card__title h2{
+.cards__card .card__title h2 {
     font-size: 1.6rem;
 }
 
@@ -305,12 +314,12 @@ body {
     flex-wrap: wrap;
 }
 
-.cards__card .card__testimonial .card__image{
+.cards__card .card__testimonial .card__image {
     display: inline;
     padding: 0 16px 0 0;
 }
 
-.cards__card .card__testimonial .card__image .card__image_testimonial-1{
+.cards__card .card__testimonial .card__image .card__image_testimonial-1 {
     display: inline-block;
     width: 65px;
     height: 65px;
@@ -320,7 +329,7 @@ body {
     background-size: cover;
 }
 
-.cards__card .card__testimonial .card__image .card__image_testimonial-2{
+.cards__card .card__testimonial .card__image .card__image_testimonial-2 {
     display: inline-block;
     width: 65px;
     height: 65px;
@@ -330,7 +339,7 @@ body {
     background-size: cover;
 }
 
-.cards__card .card__testimonial .card__image .card__image_testimonial-3{
+.cards__card .card__testimonial .card__image .card__image_testimonial-3 {
     display: inline-block;
     width: 65px;
     height: 65px;
@@ -341,18 +350,108 @@ body {
 }
 
 
-.cards__card .card__testimonial .card__info .card__name h2{
+.cards__card .card__testimonial .card__info .card__name h2 {
     font-size: 1.6rem;
     font-weight: 700;
 }
 
-.cards__card .card__testimonial .card__info .card__position span{
+.cards__card .card__testimonial .card__info .card__position span {
     font-size: 1.2rem;
     font-weight: 500;
     color: var(--gray);
 }
 
+.contact {
+    margin: 35px 0 0 0;
+}
+
+.contact .contact__title {
+    margin: 0 0 20px 0;
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.contact .contact__body .contact__phrase {
+    display: none;
+}
+
+.contact .contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact__form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact__form label span {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    margin: 8px 0 8px 0;
+}
+
+.contact .contact__form label input,
+.contact .contact__form label textarea {
+    min-width: 288px;
+    width: 100%;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--black);
+
+    background: var(--white);
+    border: 1px solid var(--black);
+    /*border-image: linear-gradient(to right, var(--purple), darkorchid) 1;*/
+    border-radius: 2px;
+}
+
+.contact .contact__form label input {
+    padding: 10px;
+    height: 32px;
+}
+
+.contact .contact__form label input:focus {
+    color: var(--black);
+    outline: none;
+}
+
+.contact .contact__form label textarea {
+    padding: 10px;
+    height: 150px;
+}
+
+.contact .contact__form label textarea {
+    color: var(--black);
+    outline: none;
+}
+
+.contact .contact__form .contact__submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 24px 0 0 0;
+    height: 42px;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    border-radius: 2px;
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+}
+
+
 
 .footer {
     margin: 120px 0 0 0;
+    /*height: 100px;
+    background-color: var(--black);*/
 }
