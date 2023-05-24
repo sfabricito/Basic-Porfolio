@@ -209,6 +209,11 @@ body {
     justify-content: space-between;
 }
 
+.contact .contact__form label input {
+    padding: 10px;
+    height: 40px;
+}
+
 .contact .contact__form {
     width: 60%;
 }
