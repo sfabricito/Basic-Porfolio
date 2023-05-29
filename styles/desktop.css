@@ -58,15 +58,15 @@
     font-size: 1.6rem;
 }
 
-.presentation_skills {
+.presentation__skills {
     padding: 24px 15% 24px 24px;
 }
 
-.presentation_skills .presentation__amount {
+.presentation__skills .presentation__amount {
     font-size: 2.8rem;
 }
 
-.presentation_skills .presentation__info {
+.presentation__skills .presentation__info {
     max-width: 180px;
     font-size: 1.4rem;
 }
@@ -153,4 +153,21 @@
     font-size: 1.6rem;
     font-weight: 500;
     text-align: justify;
+}
+
+.footer {
+    padding: 25px 30px 25px 30px;
+}
+
+.footer__logo {
+    font-size: 4.6rem;
+}
+
+.footer .footer__information .footer__social {
+    width: 35%;
+}
+
+.footer .footer__information .footer__social ul li,
+.footer .footer__information .footer__social ul li a {
+    font-size: 16px;
 }

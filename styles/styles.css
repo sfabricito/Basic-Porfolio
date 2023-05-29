@@ -160,7 +160,7 @@ main {
     background-size: contain;
 }
 
-.presentation_skills {
+.presentation__skills {
     display: flex;
     justify-content: center;
 
@@ -170,16 +170,17 @@ main {
 
     color: var(--white);
     background-color: var(--black);
+    border-radius: 2px;
 }
 
-.presentation_skills .presentation__data {
+.presentation__skills .presentation__data {
     display: flex;
     flex-wrap: wrap;
 
     margin: 0 10px 0 10px;
 }
 
-.presentation_skills .presentation__amount {
+.presentation__skills .presentation__amount {
     width: 100%;
     max-height: 40px;
     padding: 0 0 10px 0;
@@ -191,7 +192,7 @@ main {
     border-bottom: 1px transparent solid;
 }
 
-.presentation_skills .presentation__info {
+.presentation__skills .presentation__info {
     margin: 4px 0 0 0;
     max-width: 165px;
 
@@ -449,10 +450,54 @@ main {
     border: none;
 }
 
-
-
 .footer {
-    margin: 120px 0 0 0;
-    /*height: 100px;
-    background-color: var(--black);*/
+    width: 90%;
+    margin: 45px auto 0 auto;
+    padding: 10px 15px 15px 15px;
+    height: auto;
+
+    background-color: var(--black);
+    border-radius: 2px 2px 0 0;
+}
+
+.footer__logo {
+    display: inline-block;
+
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.footer__logo span {
+    color: var(--purple);
+}
+
+.footer__logo p {
+    margin: 0;
+}
+
+.footer .footer__information {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer .footer__information .footer__social {
+    width: 50%;
+}
+
+.footer .footer__information .footer__social ul {
+    margin: 0 0 0 2px;
+    list-style: none;
+}
+
+.footer .footer__information .footer__social ul li, ul li {
+    margin: 0 0 6px 0;
+    color: var(--white);
+    font-size: 12px;
+}
+
+.footer .footer__information .footer__social ul li a {
+    color: var(--white);
+    font-size: 12px;
+    text-decoration: none;
 }
