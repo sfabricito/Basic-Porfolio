@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="icon" href="./assets/icons/favicon.svg" type="image/x-icon">
 
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -87,7 +88,7 @@
                 </div>
                 <div class="presentation__form">
                     <form action="" class="newsletter-form">
-                        <input type="email" placeholder="Subscribe my Newsletter">
+                        <input type="email" placeholder="Subscribe my Newsletter" required name="email" autocomplete="email">
                         <button type="submit"><span class="newsletter-form__icon"></span></button>
                     </form>
                 </div>
@@ -251,17 +252,17 @@
                     - <b>Naval Ravikant</b> 
                 </p>
                 <form action="" class="contact__form">
-                    <label for="" class="contact__subtitle">
+                    <label class="contact__subtitle">
                         <span>Name</span>
-                        <input type="text" required>
+                        <input name="name" type="text" required name="name" autocomplete="name">
                     </label>
-                    <label for="" class="contact__subtitle">
+                    <label class="contact__subtitle">
                         <span>Email</span>
-                        <input type="email" name="" id="" required>
+                        <input type="email" required name="email" autocomplete="email">
                     </label>
-                    <label for="" class="contact__subtitle">
+                    <label class="contact__subtitle">
                         <span>Message</span>
-                        <textarea name="" id="" cols="30" rows="10" required></textarea>
+                        <textarea name="text"  cols="30" rows="10" required></textarea>
                     </label>
                     <button class="contact__submit" type="submit">Send</button>
                 </form>
@@ -273,7 +274,7 @@
         <div class="footer__information">
             <div class="footer__social">
                 <div class="footer__logo">
-                    <label class="footer__logo_text">Devi<span class="footer__logo_point">.</span></label>
+                    <p class="footer__logo_text">Devi<span class="footer__logo_point">.</span></p>
                 </div>
                 <ul>
                     <li><span class="info__logo_location"></span><a href="https://www.google.com/maps/place/Singapore+238896/@1.300934,103.840008,15z/data=!3m1!4b1!4m6!3m5!1s0x31da1996d80beb1f:0x45779e3563e6bcda!8m2!3d1.300934!4d103.840008!16s%2Fg%2F1v_vqfk8?entry=ttu" target="_blank" rel="noopener noreferrer">Singapore, 238896</a></li>
